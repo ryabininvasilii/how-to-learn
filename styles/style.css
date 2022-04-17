@@ -324,11 +324,13 @@ margin-bottom: 100px;
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
+  border: 1px solid red;
 }
 
 .footer__column_content_info {
   display: flex;
   flex-direction: column;
+  border: 1px solid red;
 }
 
 .footer__column-heading {
@@ -351,11 +353,13 @@ margin-bottom: 100px;
 .footer__column-link {
   text-decoration: none;
   color: white;
+  border: 1px solid red;
 }
 
-.social-icon {
+.footer__social-icon {
   margin-right: 10px;
   width: 16px;
   height: 16px;
   filter: invert(100%);
+  border: 1px solid red;
 }
