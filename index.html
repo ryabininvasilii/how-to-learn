@@ -8,14 +8,15 @@
     <title>Научиться учиться</title>
   </head>
   <body>
-    <div class="page">
+    <main class="page">
       <header class="header">
           <img class ="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс">
           <h1 class ="header__title"> Научиться учиться</h1>
-          <p class =" header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="link">Узнать &rarr</a></p>
+          <p class =" header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="link">Узнать &rarr;</a></p>
           <img class="header__main-illustration" src="./images/header-image.png" alt="Картина Решетникова">
           <div class="header__square-pic"></div>
       </header> 
+      <main>
         <section class="description">
           <div class="two-columns">
             <h2 class="link two-columns__brief">Главные проблемы в обучении</h2>
@@ -70,12 +71,12 @@
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть.</p>
-          <a href="" class="link feynman__link">Подробнее &rarr</a>
+          <a href="" class="link feynman__link">Подробнее &rarr;</a>
           <img class="feynman__img" src="./images/feynman.png" alt="Фейнман">
         </section> 
         <section class="kaufman">
-          <h2 class="section-title_theme_dark ">Принципы обучения</h2>
-          <p class="section-subtitle_theme_dark">от Джоша Кауфмана</p>
+          <h2 class="section-title section-title_theme_dark ">Принципы обучения</h2>
+          <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
           <ul class="table table_theme_dark"> 
             <li class="table__cell table__cell_theme_dark">
               <h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -118,27 +119,28 @@
               <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
             </li>
           </ul>
-          <div class="kaufman_triangle"></div>
+          <div class="kaufman__triangle"></div>
         </section>
+      </main>
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
-          <img class="logo logo__place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс">
+          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс">
             <p class="footer__author"> &copy; Василий Рябинин</p>
           </div>
-          <div class="footer__column_content_info">
+          <div class="footer__column footer__column_content_info">
             <h3 class="footer__column-heading">О Практикуме</h3> 
             <nav class="footer__column-links">
             <ul class="list">
-              <li><a href="#" class="footer__column-link link">Главная</a></li>
-              <li><a href="#" class="footer__column-link link">Концепция</a></li>
-              <li><a href="#" class="footer__column-link link">Наставники</a></li>
+              <li><a href="#" class="footer__column-link">Главная</a></li>
+              <li><a href="#" class="footer__column-link">Концепция</a></li>
+              <li><a href="#" class="footer__column-link">Наставники</a></li>
             </ul>
             </nav>
           </div>
-          <div class="footer__column_content_social">
+          <div class="footer__column footer__column_content_social">
             <h3 class="footer__column-heading">Соцсети</h3>
-            <nav>
+            <nav class="footer__column-links">
             <ul class="list">
               <li><a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Логотип Facebook">Facebook</a></li>
               <li><a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Логотип Вконтакте">ВКонтакте</a></li>
