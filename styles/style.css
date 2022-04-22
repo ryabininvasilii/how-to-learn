@@ -172,7 +172,7 @@ margin-bottom: 100px;
 .table__text {
   line-height: 1.2;
   font-size: 18px;
-  margin: 20px auto 0px;
+  margin: 20px auto 0;
 }
 
 .feynman {
@@ -217,8 +217,8 @@ margin-bottom: 100px;
   width: 867px;
   height: 637px;
   position: absolute;
-  left:0px;
-  bottom: 0px;
+  left:0;
+  bottom: 0;
   z-index: -1;
 
 }
@@ -275,7 +275,7 @@ margin-bottom: 100px;
   background-size: contain;
   position: absolute;
   right: -210px;
-  top: 0px;
+  top: 0;
   z-index: -1;
 
 }
@@ -303,7 +303,7 @@ margin-bottom: 100px;
 }
 
 .footer__author {
-  margin: 18px 0px;
+  margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
   color: white;
