@@ -38,19 +38,18 @@
 @import url(../blocks/footer/__list/footer__list.css);
 
 
-@import url(../blocks/section-subtitle/sectiom-subtitile.css);
+@import url(../blocks/section-subtitle/section-subtitile.css);
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-subtitle/_theme/_dark/section-subtitle_theme_dark.css);
-@import url(../blocks/section-title/_theme/_dark/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__cell/table__cell.css);
-@import url(../blocks/table/__cell/_theme/_dark/table__cell_theme_dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/table/__text/_theme/_dark/table__text_theme_dark.css);
-@import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/table/_theme/_dark/table_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
 
 @import url(../blocks/techniques/techniques.css);
 
@@ -78,7 +77,7 @@
 @import url(../blocks/description/description.css);
 
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place/_header/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 
 @import url(../blocks/link/link.css);
 
