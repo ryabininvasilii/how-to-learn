@@ -8,3 +8,7 @@
     bottom: 30px;
     z-index: 2;
   }
+
+  .header__subtitle:last-child {
+    border: 1px solid red;
+  }
