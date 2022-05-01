@@ -1,0 +1,11 @@
+.link {
+    text-decoration: none;
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity .4s ease-in-out;
+  }
+  
+  .link:hover{
+    opacity: 0.3;
+  }  
+  

@@ -3,8 +3,9 @@
     font-size: 120px;
     font-weight: bold;
     width: 648px;
-    text-align: 433;
     z-index: 1;
     margin:0 auto;
+    padding-top: 100px;
+    text-align: center;
   }
   

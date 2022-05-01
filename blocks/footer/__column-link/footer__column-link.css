@@ -2,11 +2,4 @@
     margin: 0;
     padding: 0;
     color: white;
-    text-decoration: none;
-    opacity: 1;
-    cursor: pointer;
-    transition: opacity .4s ease-in-out;
-  }
-  .footer__column-link:hover {
-    opacity: 0.3;
   }
